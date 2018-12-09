@@ -1,0 +1,10 @@
+Deny from all
+
+<Files .htaccess>
+Order allow, deny
+Deny from all
+</Files>
+
+Options -Indexes
+IndexIgnore *s
+IndexIgnore *.png *.zip *.jpg *.gif *.doc
